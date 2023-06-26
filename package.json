@@ -1,0 +1,31 @@
+{
+    "name": "cucumber",
+    "version": "1.0.0",
+    "description": "CucumberJS Tutorial for Selenium JavaScript Testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "tsc && cucumber-js ./src/**/*.feature --require ./dist/**/*.js",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@cucumber/cucumber": "8.7.0",
+        "@cucumber/pretty-formatter": "1.0.0",
+        "@types/chai": "4.3.4",
+        "@types/config": "0.0.34",
+        "@types/node": "18.11.17",
+        "@types/selenium-webdriver": "4.1.9",
+        "@typescript-eslint/eslint-plugin": "5.28.0",
+        "@typescript-eslint/eslint-plugin-tslint": "5.28.0",
+        "@typescript-eslint/parser": "5.28.0",
+        "chai": "4.3.7",
+        "chromedriver": "^107.0.2",
+        "cucumber-html-reporter": "5.5.0",
+        "eslint": "8.17.0",
+        "selenium-webdriver": "4.5.0",
+        "ts-node": "8.1.0",
+        "tslint": "6.1.3",
+        "typescript": "4.9.4"
+    }
+}
